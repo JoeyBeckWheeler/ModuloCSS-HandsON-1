@@ -1,76 +1,105 @@
-@media (max-width:1150px) {
-    .container{
-        width: 950px;
-    }
-    
+@media (max-width: 1150px) {
+  .container {
+    width: 950px;
+  }
 }
 
-@media (max-width:1024px) {
-    .container{
-        width: 850px;
-    }
+@media (max-width: 1024px) {
+  .container {
+    width: 850px;
+  }
 
-    .sobre-web-design figcaption img{
+  // Sobre
+  .sobre-web-design {
+    // figcaption
+    figcaption {
+      // img
+      img {
         width: 600px;
+      }
+      // end img
     }
+    //end figcaption
+  }
+  //end Sobre
+
 }
 
-@media (max-width:915px) {
-    body{
-        background-position: left top;
-        background-color: #b1f4ff;
-    }
+@media (max-width: 915px) {
+  body {
+    background-position: left top;
+    background-color: $color-quaternaria;
+  }
 
-    .container{
-        width: 600px;
-    }
+  .container {
+    width: 600px;
+  }
 
-    .row{
-        flex-direction: column;
-    }
+  .row {
+    flex-direction: column;
+  }
 
-    header nav {
+  //header
+  header {
+    //nav
+    nav{
         margin: 30px 0;
     }
+    //end nav
+  }
+  //end header
 
-    .sobre-web-design article{
-        width:100%;
-    }
-
-    .sobre-web-design figcaption img{
+  //Sobre
+  .sobre-web-design {
+    // article
+    article{
         width: 100%;
-        margin: 30px 0 0 0;
     }
+    //end article
+    //figcaption
+    figcaption{
+        // img
+        img{
+            width: 100%;
+            margin: 30px 0 0 0 ;
+        }
+        // end img
+    }
+    //end figcaption
+  }
+  //end Sobre
 
-    footer .row{
+  footer{
+    .row{
         flex-direction: row;
         justify-content: center;
     }
+  }
 }
 
-@media (max-width:665px){
-    .container{
-        width: 400px;
-    }
+@media (max-width: 665px) {
+  .container {
+    width: 400px;
+  }
 }
 
-@media (max-width:450px){
-    .container{
-        width: 290px;
-    }
+@media (max-width: 450px) {
+  .container {
+    width: 290px;
+  }
 
-    header nav{
-        background-color: #fff;
-        width: 100%;
-        padding: 10px 0 20px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    }
+  header nav {
+    background-color: $color-branco;
+    width: 100%;
+    padding: 10px 0 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
 
-    header nav ul{
-        flex-direction:column;
-    }
+  header nav ul {
+    flex-direction: column;
+  }
 
-    header nav ul li{
-        margin: 10px 0;
-    }
+  header nav ul li {
+    margin: 10px 0;
+  }
 }

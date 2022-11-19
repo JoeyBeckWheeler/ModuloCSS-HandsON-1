@@ -1,3 +1,19 @@
-footer ul li{
-   margin: 0 0 0 30px;
+footer {
+  //ul
+  ul {
+   //li
+    li {
+      margin: 0 0 0 30px;
+      //a
+      a {
+         //img
+        img {
+          width: $social-media-icons;
+        }
+        //End Img
+      }
+      //End a
+    }
+  }
+  //End ul
 }

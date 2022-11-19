@@ -1,17 +1,32 @@
-header section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header nav ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-
-header nav ul li a{
-    margin: 0  15px;
-    color: #39C;
+header {
+    //section 
+    section{
+     justify-content: space-between;
+     align-items: center;
+    }
+    //end section
+    
+    //nav
+    nav{
+        
+        //ul
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            
+            //li
+            li {
+              //a
+              a{
+                margin: 0px 15px;
+                color:$color-primaria;
+              }
+              //end a
+            }
+            //end li
+        }
+        //end ul
+    }
+    //end nav 
 }
