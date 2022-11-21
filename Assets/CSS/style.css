@@ -33,70 +33,63 @@ body {
 }
 
 header section {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-
 header nav ul {
   display: flex;
   flex-direction: row;
   list-style: none;
 }
-
 header nav ul li a {
-  margin: 0 15px;
-  color: #39C;
+  margin: 0px 15px;
+  color: #3399cc;
 }
 
 .btn {
   padding: 5px 30px;
   border-radius: 20px;
 }
-
 .btn.btn-laranja {
-  background-color: #F63;
-  color: #fff;
+  background-color: #ff6633;
+  color: #ffffff;
 }
 
 .sobre-web-design {
   justify-content: center;
   align-items: center;
 }
-
 .sobre-web-design article {
   width: 250px;
 }
-
-.sobre-web-design h1 {
+.sobre-web-design article h1 {
   font-size: 70px;
   line-height: 90%;
   font-weight: 400;
   color: #333366;
 }
-
-.sobre-web-design h2, .sobre-web-design article p {
+.sobre-web-design article h2,
+.sobre-web-design article p {
   color: #3399cc;
 }
-
-.sobre-web-design h2 {
+.sobre-web-design article h2 {
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 200%;
 }
-
 .sobre-web-design article p {
   margin: 10px 0 40px;
 }
-
-.sobre-web-design figcaption img {
+.sobre-web-design article figcaption img {
   width: 700px;
 }
 
 footer ul li {
   margin: 0 0 0 30px;
+}
+footer ul li a img {
+  width: 30px;
 }
 
 @media (max-width: 2000px) {
@@ -183,7 +176,7 @@ footer ul li {
     width: 290px;
   }
   header nav {
-    background-color: #fff;
+    background-color: #ffffff;
     width: 100%;
     padding: 10px 0 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
